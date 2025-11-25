@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidencias - Portafolio Docente</title>
+    <link rel="stylesheet" href="evidencias.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="navbar-brand">
+                <span class="brand-icon">📚</span>
+                <span class="brand-text">Portafolio Docente</span>
+            </div>
+            
+            <div class="navbar-menu-wrapper">
+                <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+                <label for="menu-toggle" class="menu-toggle-label">
+                    <span class="menu-icon">☰</span>
+                    <span class="menu-text">Menú</span>
+                </label>
+                
+                <ul class="navbar-menu">
+                    <li><a href="index.html" class="nav-link">Presentación</a></li>
+                    <li><a href="objetivos.html" class="nav-link">Objetivos</a></li>
+                    <li><a href="contexto.html" class="nav-link">Contexto</a></li>
+                    <li><a href="planeacion.html" class="nav-link">Planeación</a></li>
+                    <li><a href="diagnostico.html" class="nav-link">Diagnóstico</a></li>
+                    <li><a href="planificaciones.html" class="nav-link">Planificaciones</a></li>
+                    <li><a href="evidencias.html" class="nav-link">Evidencias</a></li>
+                    <li><a href="diario.html" class="nav-link">Diario Reflexivo</a></li>
+                    <li><a href="instrumentos.html" class="nav-link">Instrumentos</a></li>
+                    <li><a href="evaluacion.html" class="nav-link">Evaluación</a></li>
+                    <li><a href="propuesta.html" class="nav-link">Propuesta</a></li>
+                    <li><a href="recursos.html" class="nav-link">Recursos</a></li>
+                    <li><a href="experiencias.html" class="nav-link">Experiencias</a></li>
+                    <li><a href="anexos.html" class="nav-link">Anexos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección: Evidencias -->
+    <section class="content-section" id="evidencias">
+        <div class="section-container">
+            <h2 class="section-title">Evidencias Fotográficas</h2>
+            
+            <article class="evidencias-content">
+                <!-- Carrusel de Imágenes -->
+                <div class="carousel-container">
+                    <div class="carousel">
+                        <!-- Radio buttons ocultos para controlar el carrusel -->
+                        <input type="radio" name="carousel" id="slide1" checked>
+                        <input type="radio" name="carousel" id="slide2">
+                        <input type="radio" name="carousel" id="slide3">
+                        
+                        <!-- Slides -->
+                        <div class="carousel-slides">
+                            <div class="slide">
+                                <!-- 👇 COLOCA AQUÍ LA RUTA DE TU IMAGEN 1 -->
+                                <img src="foto (8).jpeg" alt="Evidencia 1">
+                                <div class="slide-caption">
+                                    <h3>Evidencia 1</h3>
+                                    <p>Descripción de la primera evidencia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slide">
+                                <!-- 👇 COLOCA AQUÍ LA RUTA DE TU IMAGEN 2 -->
+                                <img src="foto (7).jpeg" alt="Evidencia 2">
+                                <div class="slide-caption">
+                                    <h3>Evidencia 2</h3>
+                                    <p>Descripción de la segunda evidencia</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slide">
+                                <!-- 👇 COLOCA AQUÍ LA RUTA DE TU IMAGEN 3 -->
+                                <img src="foto (10).jpeg" alt="Evidencia 3">
+                                <div class="slide-caption">
+                                    <h3>Evidencia 3</h3>
+                                    <p>Descripción de la tercera evidencia</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Controles de navegación -->
+                        <div class="carousel-controls">
+                            <label for="slide1" class="control-btn">1</label>
+                            <label for="slide2" class="control-btn">2</label>
+                            <label for="slide3" class="control-btn">3</label>
+                        </div>
+                        
+                        <!-- Flechas de navegación -->
+                        <div class="carousel-arrows">
+                            <label for="slide3" class="arrow arrow-left">❮</label>
+                            <label for="slide2" class="arrow arrow-right">❯</label>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <article class="footer-column">
+                    <h3 class="footer-title">Portafolio Docente</h3>
+                    <p class="footer-description">
+                        Documentación completa de la práctica docente realizada en el Instituto Nacional "14 de Julio de 1875".
+                    </p>
+                    <div class="footer-social">
+                        <a href="mailto:contacto@ejemplo.com" class="social-link" aria-label="Email">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="footer-column">
+                    <h3 class="footer-title">Navegación Rápida</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html" class="footer-link">Presentación</a></li>
+                        <li><a href="objetivos.html" class="footer-link">Objetivos</a></li>
+                        <li><a href="contexto.html" class="footer-link">Contexto Educativo</a></li>
+                        <li><a href="evidencias.html" class="footer-link">Evidencias</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer-column">
+                    <h3 class="footer-title">Documentación</h3>
+                    <ul class="footer-links">
+                        <li><a href="planificaciones.html" class="footer-link">Planificaciones</a></li>
+                        <li><a href="diario.html" class="footer-link">Diario Reflexivo</a></li>
+                        <li><a href="evaluacion.html" class="footer-link">Evaluación</a></li>
+                        <li><a href="anexos.html" class="footer-link">Anexos</a></li>
+                    </ul>
+                </article>
+
+                <article class="footer-column">
+                    <h3 class="footer-title">Institución</h3>
+                    <ul class="footer-info">
+                        <li>
+                            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>Instituto Nacional<br/>"14 de Julio de 1875"</span>
+                        </li>
+                        <li>
+                            <svg class="footer-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 10C21 17 12 23 12 23C12 23 3 17 3 10C3 7.61305 3.94821 5.32387 5.63604 3.63604C7.32387 1.94821 9.61305 1 12 1C14.3869 1 16.6761 1.94821 18.364 3.63604C20.0518 5.32387 21 7.61305 21 10Z" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                            <span>El Salvador</span>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">
+                    &copy; 2025 Portafolio Docente. Licenciatura en Informática Educativa.
+                </p>
+                
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
